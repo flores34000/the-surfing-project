@@ -1,4 +1,9 @@
+/* /* section navbarre */
+.text-hover:hover{
+    color: #837171 !important;
+}
 /* section hero************ */
+
 .hero-surf{
     height: 100vh;
     width: 100%;
