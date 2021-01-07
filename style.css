@@ -33,6 +33,13 @@
     color: #ffffff;
     font-size: 30px;
 }
+.bg-image{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/frank-mckenna-R7YtoUH3x8Y-unsplash.jpg);
+}
 /* section des points***** */
 .titre-point{
     margin: 40px;
@@ -52,7 +59,7 @@
 .card-text-detail, .card-title-detail{
     color: #454545;
 }
-/* section témoignage*** */
-.titre-prix{
-    
+/* section des prix */
+.text-prix{
+    margin: 30px;
 }
