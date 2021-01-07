@@ -3,12 +3,12 @@
     color: #837171 !important;
 }
 /* section hero************ */
-
-/* .hero-surf{
+.jumbotron{
+    background-image: url("./images/frank-mckenna-R7YtoUH3x8Y-unsplash.jpg");
+    background-size: cover;
     height: 100vh;
-    width: 100vw;
-   
-} */
+    background-position: center;
+}
 .texte-hero{
     position: absolute; 
     top: 35%;
@@ -19,31 +19,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 .btn-hero{
     margin-left: 10px;
     
 }
-.card-body-hero{
-    background-color: rgba(0, 0, 0, 0);
-    border: transparent;
-    color: white;
-}
 .card-title-size{
     font-size: 45px;
-    color: #ffffff;
-    
+    color: #ffffff;    
 }
 .card-text-p{
     color: #ffffff;
     font-size: 30px;
-}
-.bg-image{
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./images/frank-mckenna-R7YtoUH3x8Y-unsplash.jpg);
 }
 /* section des points***** */
 .titre-point{
@@ -67,4 +55,7 @@
 /* section des prix */
 .text-prix{
     margin: 30px;
+}
+.video-surf{
+    width: 100%;   
 }
